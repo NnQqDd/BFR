@@ -1,0 +1,13 @@
+C:\Users\FPT\Desktop\IAmAMachine\bin\Release\IAmAMachine.exe.config
+C:\Users\FPT\Desktop\IAmAMachine\bin\Release\IAmAMachine.exe
+C:\Users\FPT\Desktop\IAmAMachine\bin\Release\IAmAMachine.pdb
+C:\Users\FPT\Desktop\IAmAMachine\obj\Release\IAmAMachine.csproj.AssemblyReference.cache
+C:\Users\FPT\Desktop\IAmAMachine\obj\Release\IAmAMachine.Form1.resources
+C:\Users\FPT\Desktop\IAmAMachine\obj\Release\IAmAMachine.LoginForm.resources
+C:\Users\FPT\Desktop\IAmAMachine\obj\Release\IAmAMachine.Properties.Resources.resources
+C:\Users\FPT\Desktop\IAmAMachine\obj\Release\IAmAMachine.UserControl1.resources
+C:\Users\FPT\Desktop\IAmAMachine\obj\Release\IAmAMachine.UserControl2.resources
+C:\Users\FPT\Desktop\IAmAMachine\obj\Release\IAmAMachine.csproj.GenerateResource.cache
+C:\Users\FPT\Desktop\IAmAMachine\obj\Release\IAmAMachine.csproj.CoreCompileInputs.cache
+C:\Users\FPT\Desktop\IAmAMachine\obj\Release\IAmAMachine.exe
+C:\Users\FPT\Desktop\IAmAMachine\obj\Release\IAmAMachine.pdb
