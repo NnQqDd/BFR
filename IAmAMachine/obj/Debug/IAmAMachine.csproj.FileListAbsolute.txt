@@ -38,3 +38,17 @@ D:\_WORK_SPACE\UNI\WFA\GROUP\IAmAMachine\bin\Debug\IAmAMachine.exe.config
 D:\_WORK_SPACE\UNI\WFA\GROUP\IAmAMachine\bin\Debug\IAmAMachine.exe
 D:\_WORK_SPACE\UNI\WFA\GROUP\IAmAMachine\bin\Debug\IAmAMachine.pdb
 D:\_WORK_SPACE\UNI\WFA\GROUP\IAmAMachine\obj\Debug\IAmAMachine.DangKiForm.resources
+E:\VisualStudio\project\BFR\IAmAMachine\bin\Debug\IAmAMachine.exe.config
+E:\VisualStudio\project\BFR\IAmAMachine\bin\Debug\IAmAMachine.exe
+E:\VisualStudio\project\BFR\IAmAMachine\bin\Debug\IAmAMachine.pdb
+E:\VisualStudio\project\BFR\IAmAMachine\obj\Debug\IAmAMachine.csproj.AssemblyReference.cache
+E:\VisualStudio\project\BFR\IAmAMachine\obj\Debug\IAmAMachine.DangKiForm.resources
+E:\VisualStudio\project\BFR\IAmAMachine\obj\Debug\IAmAMachine.MainForm.resources
+E:\VisualStudio\project\BFR\IAmAMachine\obj\Debug\IAmAMachine.DangNhapForm.resources
+E:\VisualStudio\project\BFR\IAmAMachine\obj\Debug\IAmAMachine.Properties.Resources.resources
+E:\VisualStudio\project\BFR\IAmAMachine\obj\Debug\IAmAMachine.UserControl1.resources
+E:\VisualStudio\project\BFR\IAmAMachine\obj\Debug\IAmAMachine.UserControl2.resources
+E:\VisualStudio\project\BFR\IAmAMachine\obj\Debug\IAmAMachine.csproj.GenerateResource.cache
+E:\VisualStudio\project\BFR\IAmAMachine\obj\Debug\IAmAMachine.csproj.CoreCompileInputs.cache
+E:\VisualStudio\project\BFR\IAmAMachine\obj\Debug\IAmAMachine.exe
+E:\VisualStudio\project\BFR\IAmAMachine\obj\Debug\IAmAMachine.pdb

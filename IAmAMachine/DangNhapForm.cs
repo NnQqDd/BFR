@@ -1,4 +1,6 @@
-﻿using System;
+﻿using IAmAMachine.DAO;
+using IAmAMachine.DTO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,7 +26,7 @@ namespace IAmAMachine
             matKhauTxt.Text = "Nhập mật khẩu";
             matKhauTxt.ForeColor = Color.Silver;
             this.ActiveControl = null;
-
+            List<DanhMucThuocDTO> trinh = DanhMucThuocDAO.Instance.GetAllDanhMucThuoc();
         }
 
         private void tenDangNhapTxt_Click(object sender, EventArgs e)
@@ -102,6 +104,11 @@ namespace IAmAMachine
         }
 
         private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
         }

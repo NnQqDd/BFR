@@ -52,6 +52,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAO\DanhMucThuocDAO.cs" />
+    <Compile Include="DAO\DataProvider.cs" />
+    <Compile Include="DAO\TrinhDoDAO.cs" />
+    <Compile Include="DTO\ChiTietHDBDTO.cs" />
+    <Compile Include="DTO\ChiTietHDNDTO.cs" />
+    <Compile Include="DTO\ChuyenMonDTO.cs" />
+    <Compile Include="DTO\DangDieuCheDTO.cs" />
+    <Compile Include="DTO\DanhMucThuocDTO.cs" />
+    <Compile Include="DTO\HangSanXuatDTO.cs" />
+    <Compile Include="DTO\HoaDonBanDTO.cs" />
+    <Compile Include="DTO\HoaDonNhapDTO.cs" />
+    <Compile Include="DTO\KhachHangDTO.cs" />
+    <Compile Include="DTO\NhaCungCapDTO.cs" />
+    <Compile Include="DTO\NhanVienDTO.cs" />
+    <Compile Include="DTO\TrinhDoDTO.cs" />
+    <Compile Include="DTO\UserAppDTO.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
