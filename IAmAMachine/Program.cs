@@ -15,7 +15,7 @@ namespace IAmAMachine
                 //SetProcessDPIAware();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DangNhapForm());
+            Application.Run(new MainForm());
 
         }
         [System.Runtime.InteropServices.DllImport("user32.dll")] //Use HDPI via API calls
