@@ -42,5 +42,10 @@ namespace IAmAMachine
             panel1.Top = button2.Top;
             userControl2.BringToFront();
         }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

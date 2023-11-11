@@ -41,6 +41,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -78,11 +79,11 @@
     <Compile Include="DangKiForm.Designer.cs">
       <DependentUpon>DangKiForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControl1.cs">
+    <Compile Include="Phantich-admin_usercontrol.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControl1.Designer.cs">
-      <DependentUpon>UserControl1.cs</DependentUpon>
+    <Compile Include="Phantich-admin_usercontrol.Designer.cs">
+      <DependentUpon>Phantich-admin_usercontrol.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControl2.cs">
       <SubType>UserControl</SubType>
@@ -109,8 +110,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="UserControl1.resx">
-      <DependentUpon>UserControl1.cs</DependentUpon>
+    <EmbeddedResource Include="Phantich-admin_usercontrol.resx">
+      <DependentUpon>Phantich-admin_usercontrol.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControl2.resx">
       <DependentUpon>UserControl2.cs</DependentUpon>
