@@ -13,7 +13,7 @@ namespace IAmAMachine
     public partial class MainForm : Form
     {
         UserControl1 userControl1 = new UserControl1();
-        UserControl2 userControl2 = new UserControl2();
+        ThongTinKH userControl2 = new ThongTinKH();
         public MainForm()
         {
 
@@ -28,6 +28,7 @@ namespace IAmAMachine
             userControl1.Top = sidePanel.Top;
             userControl2.Top = sidePanel.Top;
 
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -41,6 +42,11 @@ namespace IAmAMachine
             panel1.Height = button2.Height;
             panel1.Top = button2.Top;
             userControl2.BringToFront();
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

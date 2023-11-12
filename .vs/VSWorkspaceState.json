@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\IAmAMachine",
-    "\\IAmAMachine\\DAO"
+    "\\IAmAMachine"
   ],
-  "SelectedNode": "\\IAmAMachine\\DAO\\DataProvider.cs",
+  "SelectedNode": "\\IAmAMachine\\IAmAMachine.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -95,6 +95,7 @@
             this.Controls.Add(this.sidePanel);
             this.Name = "MainForm";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.sidePanel.ResumeLayout(false);
             this.ResumeLayout(false);
 

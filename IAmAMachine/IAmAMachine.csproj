@@ -100,11 +100,11 @@
     <Compile Include="UserControl1.Designer.cs">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControl2.cs">
+    <Compile Include="ThongTinKH.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControl2.Designer.cs">
-      <DependentUpon>UserControl2.cs</DependentUpon>
+    <Compile Include="ThongTinKH.Designer.cs">
+      <DependentUpon>ThongTinKH.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="DangKiForm.resx">
       <DependentUpon>DangKiForm.cs</DependentUpon>
@@ -128,8 +128,8 @@
     <EmbeddedResource Include="UserControl1.resx">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControl2.resx">
-      <DependentUpon>UserControl2.cs</DependentUpon>
+    <EmbeddedResource Include="ThongTinKH.resx">
+      <DependentUpon>ThongTinKH.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.manifest" />
     <None Include="Properties\Settings.settings">
