@@ -43,16 +43,18 @@
             this.sidePanel.Controls.Add(this.button1);
             this.sidePanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.sidePanel.Location = new System.Drawing.Point(0, 0);
+            this.sidePanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.sidePanel.Name = "sidePanel";
-            this.sidePanel.Size = new System.Drawing.Size(200, 453);
+            this.sidePanel.Size = new System.Drawing.Size(160, 607);
             this.sidePanel.TabIndex = 0;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DarkGreen;
-            this.panel1.Location = new System.Drawing.Point(0, 22);
+            this.panel1.Location = new System.Drawing.Point(0, 18);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(5, 43);
+            this.panel1.Size = new System.Drawing.Size(4, 34);
             this.panel1.TabIndex = 3;
             // 
             // button2
@@ -63,9 +65,10 @@
             this.button2.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(0, 65);
+            this.button2.Location = new System.Drawing.Point(0, 52);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(200, 43);
+            this.button2.Size = new System.Drawing.Size(160, 34);
             this.button2.TabIndex = 6;
             this.button2.Text = "User control 2";
             this.button2.UseVisualStyleBackColor = false;
@@ -79,9 +82,10 @@
             this.button1.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(0, 22);
+            this.button1.Location = new System.Drawing.Point(0, 18);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(200, 43);
+            this.button1.Size = new System.Drawing.Size(160, 34);
             this.button1.TabIndex = 3;
             this.button1.Text = "User control 1";
             this.button1.UseVisualStyleBackColor = false;
@@ -89,12 +93,14 @@
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.ClientSize = new System.Drawing.Size(782, 453);
+            this.ClientSize = new System.Drawing.Size(1070, 607);
             this.Controls.Add(this.sidePanel);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "MainForm";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.sidePanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
