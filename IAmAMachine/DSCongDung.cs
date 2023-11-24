@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace IAmAMachine
 {
-    public partial class UserControl1 : UserControl
+    public partial class DSCongDung : UserControl
     {
-        public UserControl1()
+        public DSCongDung()
         {
             InitializeComponent();
         }

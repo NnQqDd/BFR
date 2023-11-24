@@ -39,9 +39,12 @@
     <ApplicationIcon>green_store_64.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -51,13 +54,44 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainForm.cs">
+    <Compile Include="DSCongDung.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DSCongDung.Designer.cs">
+      <DependentUpon>DSCongDung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DSKhachHang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DSKhachHang.Designer.cs">
+      <DependentUpon>DSKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DSNhanVIen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DSNhanVIen.Designer.cs">
+      <DependentUpon>DSNhanVIen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DSThanhPhan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DSThanhPhan.Designer.cs">
+      <DependentUpon>DSThanhPhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DSThuoc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DSThuoc.Designer.cs">
+      <DependentUpon>DSThuoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDS.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.Designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <Compile Include="FormDS.Designer.cs">
+      <DependentUpon>FormDS.cs</DependentUpon>
     </Compile>
     <Compile Include="DangNhapForm.cs">
       <SubType>Form</SubType>
@@ -79,23 +113,26 @@
     <Compile Include="DangKiForm.Designer.cs">
       <DependentUpon>DangKiForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Phantich-admin_usercontrol.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Phantich-admin_usercontrol.Designer.cs">
-      <DependentUpon>Phantich-admin_usercontrol.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControl2.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl2.Designer.cs">
-      <DependentUpon>UserControl2.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="DangKiForm.resx">
       <DependentUpon>DangKiForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.resx">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <EmbeddedResource Include="DSCongDung.resx">
+      <DependentUpon>DSCongDung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DSKhachHang.resx">
+      <DependentUpon>DSKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DSNhanVIen.resx">
+      <DependentUpon>DSNhanVIen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DSThanhPhan.resx">
+      <DependentUpon>DSThanhPhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DSThuoc.resx">
+      <DependentUpon>DSThuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDS.resx">
+      <DependentUpon>FormDS.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DangNhapForm.resx">
       <DependentUpon>DangNhapForm.cs</DependentUpon>
@@ -110,12 +147,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Phantich-admin_usercontrol.resx">
-      <DependentUpon>Phantich-admin_usercontrol.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControl2.resx">
-      <DependentUpon>UserControl2.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
